@@ -1,0 +1,605 @@
+/**
+ * @name Stars
+ * @author Alicia#8080
+ * @version 1.0.0
+ * @description Beautiful theme that takes you into space.
+ */
+@import url("https://use.fontawesome.com/releases/v5.6.1/css/all.css");
+
+
+:root {
+
+}
+
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+}
+
+body {
+    background: url("http://getwallpapers.com/wallpaper/full/d/4/8/510902.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
+
+.app-2rEoOp {
+    margin: 10px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.205);
+    box-shadow: 0px 0px 10px rgb(5, 5, 5);
+}
+
+.theme-dark {
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+    --text-normal: #dcddde;
+    --text-muted: #72767d;
+    --text-link: #00b0f4;
+    --channels-default: #8e9297;
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --interactive-muted: #4f545c;
+    --background-primary: transparent;
+    --background-secondary: transparent;
+    --background-secondary-alt: transparent;
+    --background-tertiary: transparent;
+    --background-accent: #4f545c;
+    --background-floating: #18191c;
+    --background-mobile-primary: #36393f;
+    --background-mobile-secondary: #2f3136;
+    --background-modifier-hover: rgba(79,84,92,0.16);
+    --background-modifier-active: rgba(79,84,92,0.24);
+    --background-modifier-selected: rgba(79,84,92,0.32);
+    --background-modifier-accent: hsla(0,0%,100%,0.06);
+    --background-mentioned: rgba(250,166,26,0.05);
+    --background-mentioned-hover: rgba(250,166,26,0.08);
+    --background-message-hover: rgba(4,4,5,0.07);
+    --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
+    --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+    --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
+    --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
+    --logo-primary: #fff;
+    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    --channeltextarea-background: #40444b;
+    --activity-card-background: #202225;
+    --textbox-markdown-syntax: #8e9297;
+    --deprecated-card-bg: rgba(32,34,37,0.6);
+    --deprecated-card-editable-bg: rgba(32,34,37,0.3);
+    --deprecated-store-bg: #36393f;
+    --deprecated-quickswitcher-input-background: #72767d;
+    --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
+    --deprecated-text-input-bg: rgba(0,0,0,0.1);
+    --deprecated-text-input-border: rgba(0,0,0,0.3);
+    --deprecated-text-input-border-hover: #040405;
+    --deprecated-text-input-border-disabled: #202225;
+    --deprecated-text-input-prefix: #dcddde;
+}
+
+
+/*custom icon  /  guilds*/
+
+.homeIcon-tEMBK1 {
+    color: rgb(241, 241, 241);
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+    background: rgba(185, 185, 185, 0.089);
+}
+
+.scrollerWrap-1IAIlv {
+    background: rgba(119, 119, 119, 0.089);
+    border-radius: 10px;
+}
+
+
+/*top bar*/
+
+.withFrame-haYltI {
+    margin-top: 0px;
+    padding-top: 4px;
+    background: rgba(179, 179, 179, 0);
+}
+
+.winButton-iRh8-Z:hover {
+    transition: .2s;
+    background: rgba(255, 255, 255, 0.205);
+}
+.winButtonClose-1HsbF-:hover {
+    transition: .2s;
+    background: rgba(223, 52, 52, 0.514);
+}
+
+/*channels*/
+
+.content-1x5b-n {
+
+    background: rgba(99, 99, 99, 0.144);
+}
+
+.content-1x5b-n:hover {
+
+    border-left: 4px solid white;
+}
+
+.content-1x5b-n {
+
+    border-left: 0px solid white;
+    transition: all .2s ease;
+}
+.modeSelected-346R90 .content-1x5b-n, .modeSelected-346R90:hover .content-1x5b-n {
+
+    border-left: 9px solid white;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.267), rgba(122, 122, 122, 0.205))!important;
+}
+
+
+.unread-2lAfLh {
+
+    background: rgba(238, 238, 238, 0.76)!important;
+    position: absolute;
+    height: 15px;
+    width: 4px;
+    top: 40%;
+    left: 0px;
+    margin-top: -4px;
+    border-radius: 0px 4px 4px 0px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    transition: all .2s ease;
+}
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background: linear-gradient(130deg, #131313, #0f0f0f);
+}
+/*chat*/
+
+.grid-1nZz7S {
+    background: rgba(138, 138, 138, 0.137);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.messages-3amgkR {
+    background: rgba(185, 185, 185, 0.068);
+    margin-bottom: 15px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.scroller-3sQKXg::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollableContainer-2NUZem::-webkit-scrollbar {
+    display: none;
+}
+.webkit-HjD9Er .buttons-3JBrkn {
+    margin-right: 3px;
+}
+
+.scrollableContainer-2NUZem {
+    background: rgba(185, 185, 185, 0.103);
+}
+
+.jumpToPresentBar-9P20AM {
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.attachButton-2WznTc .attachButtonPlus-jWVFah {
+    transform: rotate(0deg);
+}
+
+.attachButton-2WznTc:hover .attachButtonPlus-jWVFah {
+    transition: all .2s ease;
+    animation: icandoit .4s ease;
+}
+
+@keyframes icandoit {
+    0%{transform: rotate(0deg);}
+    20%{transform: rotate(-10deg);}
+    100%{transform: rotate(180deg);}
+}
+
+/*members*/
+
+.members-1998pB {
+    margin-left: 10px;
+    background: rgba(185, 185, 185, 0.062);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.layout-2DM8Md {
+    background: rgba(82, 82, 82, 0.068);
+    margin-top: 3px;
+    transition: all .2s;
+    border-left: 0px solid white;
+}
+
+.layout-2DM8Md:hover {
+    border-left: 4px solid white;
+}
+
+.selected-aXhQR6 .layout-2DM8Md {
+    content: 'wulu is cute';
+    transition: all .2s ease;
+    border-left: 10px solid white;
+    background: rgba(82, 82, 82, 0.705);
+}
+
+/*profiles*/
+
+
+.userPopout-3XzG_A {
+    opacity: 1;
+    animation: ruthiscute .5s ease;
+}
+
+@keyframes ruthiscute {
+    from{opacity: 0; transform: scale(.985)}
+    to{opacity: 1;transform: scale(1);}
+}
+
+
+
+.avatarWrapperNormal-3wFMbf {
+    transform: scale(1.2);
+    margin-bottom: 30px;
+}
+
+.headerTop-3C2Zn0 {
+    background: url(http://getwallpapers.com/wallpaper/full/d/4/8/510902.jpg);
+}
+
+.theme-dark .bodyInner-245q0L {
+    background: linear-gradient(130deg, #131313, #0f0f0f);
+}
+.theme-dark .footer-1fjuF6 {
+    background: linear-gradient(130deg, #131313, #0f0f0f);
+}
+
+.activity-11LB_k, .headerFill-adLl4x {
+    background: linear-gradient(338deg, rgb(46, 46, 46) 0%, rgba(15, 15, 15, 0.992) 100%);
+	background-size: 400% 400%;
+    animation: gradient 12s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.theme-dark .quickMessage-1yeL4E {
+    background: linear-gradient(130deg, rgb(19, 19, 19) 0%, rgb(19, 19, 19) 100%);
+}
+
+.theme-dark .quickMessage-1yeL4E:hover {
+    background: linear-gradient(130deg, rgb(24, 24, 24) 0%, rgb(27, 27, 27) 100%);
+}
+.activity-1ythUs, .tabBarContainer-1s1u-z {
+    background: rgb(31, 31, 31);
+}
+
+/*profile modals*/
+
+.header-QKLPzZ {
+    background-image: url(http://getwallpapers.com/wallpaper/full/d/4/8/510902.jpg);
+}
+
+.topSectionNormal-2-vo2m .tabBarContainer-1s1u-z, .body-3ND3kc {
+    background: linear-gradient(60deg, #161616, #141414);
+}
+
+.body-3ND3kc {
+    animation: pontusuwu .2s ease;
+}
+
+@keyframes pontusuwu {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+/*icons AAAAA*/
+
+.icon-22AiRD {
+    transition: all .2s ease-out;
+}
+
+.icon-22AiRD:hover {
+    transform: scale(1.15);
+    animation: noxiYWY .2s;
+}
+
+@keyframes noxiYWY {
+    0%{transform: scale(1.15);}
+    10%{transform: scale(1.2);}
+    100%{transform: scale(1.15);}
+}
+
+.button-14-BFJ[aria-label="User Settings"] {
+    transition: .2s ease;
+}
+
+.button-14-BFJ[aria-label="User Settings"] .contents-18-Yxp {
+    transition: all .2s ease;
+}
+.button-14-BFJ[aria-label="User Settings"]:hover .contents-18-Yxp {
+    transform: rotate(45deg) scale(1.2);
+}
+
+
+.button-14-BFJ:hover:not([aria-label="User Settings"]) .contents-18-Yxp {
+    transform: scale(1.15);
+    animation: uwu .3s ease;
+}
+
+@keyframes uwu {
+    0%{transform: scale(1.15);}
+    30%{transform: scale(1.2);}
+    50%{transform: scale(1.15);}
+    100%{transform: scale(1.15);}
+}
+
+/*settings*/
+
+.marginBottom20-32qID7 .viewBody-2Qz-jg {
+    filter: blur(0);
+}
+
+.viewBody-2Qz-jg {
+    filter: blur(5px);
+    transition-duration: .35s;
+}
+
+.viewBody-2Qz-jg:hover {
+    filter: blur(0);
+}
+
+.contentColumnDefault-1VQkGM {
+    background: rgba(117, 117, 117, 0.13);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.side-8zPYf6 .item-PXvHYJ {
+    border-left: 3px solid white;
+    transition: all .1s ease-out;
+}
+
+.side-8zPYf6 .item-PXvHYJ:hover {
+    border-left: 5px solid white;
+    transition: all .1s ease-out;
+}
+
+.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+    border-left: 10px solid white;
+    background: rgba(134, 134, 134, 0.205);
+}
+
+.sidebar-CFHs9e {
+    background: rgba(85, 85, 85, 0.205);
+}
+
+.barFill-23-gu- {
+    background: rgb(235, 235, 235);
+}
+
+.themeDefault-24hCdX.valueChecked-m-4IJZ, .themeDefault-24hCdX {
+    border-radius: 0px;
+    border: 2px solid white
+}
+.valueChecked-m-4IJZ.sizeDefault-2YlOZr:after {
+    -webkit-transform: translate(16px, -2);
+    transform: translate(16px, -2px) scale(.9);
+}
+.themeDefault-24hCdX.sizeDefault-2YlOZr:after {
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.3);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+    border-radius: 0;
+}
+.valueUnchecked-2lU_20:after {
+    transform: translate(-2px, -2px) scale(.9);
+}
+
+.themeDefault-24hCdX.valueChecked-m-4IJZ {
+    background: rgba(59, 59, 59, 0.938);
+}
+
+.theme-dark .closeButton-1tv5uR {
+    transition: all .3s ease;
+    opacity: .5;
+    border: none
+}
+
+.theme-dark .closeButton-1tv5uR:hover {
+    transform: rotate(180deg);
+    border: 2px dashed #72767d;
+    opacity: 1;
+}
+
+/*emojis*/
+
+.button-3AYNKb {
+    transition: all .1s ease;
+}
+
+.button-3AYNKb:hover {
+    transform: scale(1.15);
+}
+
+.reactionInner-15NvIl {
+    background: rgba(0, 0, 0, 0.205);
+}
+
+.reactionInner-15NvIl[aria-pressed="true"] {
+    background: rgba(110, 109, 109, 0.658);
+    border-radius: 2px;
+}
+
+.emojiPicker-3m1S-j {
+    background: rgb(26, 26, 26);
+}
+
+.theme-dark .autocomplete-1vrmpx {
+    background: rgb(32, 32, 32);
+}
+
+/*pins*/
+
+.header-ykumBX {
+    background: rgba(51, 51, 51, 0.979);
+}
+.scroller-3-yaBL {
+    background: rgb(22, 22, 22);
+}
+
+/*buttons*/
+
+
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+    background: rgb(66, 65, 65);
+}
+
+.lookFilled-1Gx00P:hover.colorGreen-29iAKY {
+    background: rgb(88, 88, 88);
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+    background: rgb(66, 65, 65);
+}
+
+.lookFilled-1Gx00P:hover.colorBrand-3pXr91 {
+    background: rgb(88, 88, 88);
+}
+
+/*friends page*/
+.container-1r6BKw.themed-ANHk51 {
+    background: rgba(77, 77, 77, 0.301);
+}
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG {
+    background: rgba(0, 0, 0, 0.247);
+}
+.peopleListItem-2nzedh {
+    transition: all .2s ease;
+}
+
+.peopleListItem-2nzedh:hover {
+    border-left: 5px solid white;
+}
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar {
+    display: none;
+}
+
+.nowPlayingScroller-2XrVUt {
+    background: rgba(0, 0, 0, 0.205);
+}
+
+/*upload*/
+
+.theme-dark .uploadModal-2ifh8j {
+    background: url("http://getwallpapers.com/wallpaper/full/d/4/8/510902.jpg");
+}
+
+.uploadModal-2ifh8j .footer-3mqk7D.hasSpoilers-1IRtQC {
+    background: transparent;
+    border-radius: 10px;
+}
+
+.uploadModal-2ifh8j::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #ffffff21 10%, #000000 90%);
+    border-radius: 10px;
+}
+
+/*settings page icons*/
+
+.sidebar-CFHs9e .item-PXvHYJ {
+    padding-left: 20%;
+}
+
+.sidebar-CFHs9e .item-PXvHYJ::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    left: 10px;
+}
+.sidebar-CFHs9e .item-PXvHYJ:nth-child(2)::before {
+    content: "\f2b9"; /*my account*/
+}
+.sidebar-CFHs9e .item-PXvHYJ:nth-child(3)::before {
+    content: "\f05a"; /*privacy and safety*/
+}
+.sidebar-CFHs9e .item-PXvHYJ:nth-child(4)::before {
+    content: "\f0ae"; /*authorized apps*/
+}
+.sidebar-CFHs9e .item-PXvHYJ:nth-child(5)::before {
+    content: "\f2f1"; /*connectons*/
+}
+.sidebar-CFHs9e .item-PXvHYJ:nth-child(6)::before {
+    content: "\f09d"; /*billing*/
+}
+.sidebar-CFHs9e .item-PXvHYJ:nth-child(8)::before {
+    content: "\f155"; /*subscriptions*/
+    left: 13px
+}
+.sidebar-CFHs9e .item-PXvHYJ:nth-child(9)::before {
+    content: "\f06b"; /*gift inventory*/
+}
+.sidebar-CFHs9e .item-PXvHYJ:nth-child(10)::before {
+    content: "\f139"; /*server boost*/
+}
+.sidebar-CFHs9e .item-PXvHYJ:nth-child(11)::before {
+    content: "\f5c0"; /*hypesquad*/
+}
+.sidebar-CFHs9e .item-PXvHYJ:nth-child(14)::before {
+    content: "\f130"; /*voice and video*/
+    left: 15px;
+}
+.sidebar-CFHs9e .item-PXvHYJ:nth-child(15)::before {
+    content: "\f26c"; /*overlay*/
+}
+.sidebar-CFHs9e .item-PXvHYJ:nth-child(16)::before {
+    content: "\f0f3"; /*notifications*/
+    left: 13px
+}
+.sidebar-CFHs9e .item-PXvHYJ:nth-child(17)::before {
+    content: "\f11c"; /*keybinds*/
+}
+.sidebar-CFHs9e .item-PXvHYJ:nth-child(18)::before {
+    content: "\f11b"; /*game activity*/
+}
+.sidebar-CFHs9e .item-PXvHYJ:nth-child(19)::before {
+    content: "\f03e"; /*text & images*/
+}
+.sidebar-CFHs9e .item-PXvHYJ:nth-child(20)::before {
+    content: "\f065"; /*appearance*/
+}
+.sidebar-CFHs9e .item-PXvHYJ:nth-child(21)::before {
+    content: "\f205"; /*streamer mode*/
+}
+.sidebar-CFHs9e .item-PXvHYJ:nth-child(22)::before {
+    content: "\f038"; /*language*/
+}
+.sidebar-CFHs9e .item-PXvHYJ:nth-child(23)::before {
+    content: "\f07b"; /*windows settings*/
+}
+.sidebar-CFHs9e .item-PXvHYJ:nth-child(25)::before {
+    content: "\f0e8"; /*change log*/
+}
